@@ -12,7 +12,7 @@ class CheckVowel{
 			System.out.println("invalid");
 		}
 		else{
-			System.out.println("consonants");
+			System.out.println("Consonant");
 		}
 	}
 }
