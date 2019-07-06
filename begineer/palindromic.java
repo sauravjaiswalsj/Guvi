@@ -5,7 +5,7 @@ public class palindromic{
 		String n=cin.nextLine();
 		StringBuffer b=new StringBuffer(n);
 		String t=b.reverse().toString();
-		System.out.println(n);
+		//System.out.println(n);
 		if(t.equals(n)){
 			System.out.println("yes");
 		}
