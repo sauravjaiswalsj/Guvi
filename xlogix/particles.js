@@ -1,12 +1,13 @@
 /* ---- particles.js config ---- */
-
+/* --- edited 
+@author: Saurav Jaiswal ---*/
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 380,
+      "value": 300,
       "density": {
         "enable": true,
-        "value_area": 2500
+        "value_area": 5000
       }
     },
     "color": {
@@ -32,13 +33,13 @@ particlesJS("particles-js", {
       "random": false,
       "anim": {
         "enable": false,
-        "speed": 1,
+        "speed": 10,
         "opacity_min": 0.1,
         "sync": false
       }
     },
     "size": {
-      "value": 3,
+      "value": 5,
       "random": true,
       "anim": {
         "enable": false,
@@ -48,16 +49,16 @@ particlesJS("particles-js", {
       }
     },
     "line_linked": {
-      "enable": true,
-      "distance": 150,
+      "enable": false,
+      "distance": 100,
       "color": "#ffffff",
-      "opacity": 0.4,
+      "opacity": 0.6,
       "width": 1
     },
     "move": {
       "enable": true,
       "speed": 6,
-      "direction": "none",
+      "direction": "bottom",
       "random": false,
       "straight": false,
       "out_mode": "out",
