@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class ArithemeticProgression{
+public class ArithemeticProgression{
     public static void main(String[]  args){
         Scanner cin = new Scanner(System.in);
             int N=cin.nextInt();
