@@ -24,26 +24,26 @@
                 </div>
             </div>
             <div class="rform-design">
-                <form id="forms">
+                <form id="formsReg">
                     <div class="form-group">
                         <label for="exampleInputName">Name</label>
-                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Your Good Name">
+                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Your Good Name" required>
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="user-email">Email address</label>
+                        <input type="email" class="form-control" id="user-email" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text"> We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group ">
-                        <label for="exampleInputPassword1 ">Password</label>
-                        <input type="password" class="form-control" name="user-pw" id="user-pw" placeholder="Password ">
+                        <label for="user-pw">Password</label>
+                        <input type="password" class="form-control" name="user-pw" id="user-pw" placeholder="Password " required>
                     </div>
                     <div class="form-group ">
                         <label for="exampleInputCollege ">College Name</label>
-                        <input type="text" class="form-control" id="college" placeholder="Your College Name">
+                        <input type="text" class="form-control" id="college" placeholder="Your College Name" required>
                     </div>
 
-                    <button type="submit " class="btn btn-primary " onclick="myfunc() ">Submit</button>
+                    <button type="submit " class="btn btn-primary ">Submit</button>
                     <a class="btn btn-primary " href="./login.html" style="text-decoration: none;">Login</a>
                 </form>
             </div>
@@ -51,7 +51,9 @@
     </main>
     <script src="particles.js " charset="utf-8 "></script>
 
-    <script type="text/javascript " src="index.js "></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
+
+    <script type="text/javascript " src="login.js "></script>
     <footer id="foot">Made with ❤️ by &copy;Saurav Jaiswal</footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>

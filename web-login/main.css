@@ -63,6 +63,13 @@ canvas {
     vertical-align: center;
 }
 
+#formsReg {
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    vertical-align: center;
+}
+
 .formRegister {
     color: white;
 }

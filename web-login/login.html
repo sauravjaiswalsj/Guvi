@@ -26,21 +26,22 @@
             <div class="form-design">
                 <form id="forms" action="/welcome.json">
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="email1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <label for="user-email">Email address</label>
+                        <input type="email" class="form-control" name="user-email" id="user-email" aria-describedby="emailHelp" placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text"> We'll never share your email with anyone else.</small>
                     </div>
                     <div class="form-group">
                         <label for="user-pw">Password</label>
-                        <input type="password" class="form-control" name="user-pw" id="user-pw" placeholder="Password ">
+                        <input type="password" class="form-control" name="user-pw" id="user-pw" placeholder="Password " required>
                     </div>
-                    <button type="submit " class="btn btn-primary " onclick="myfunc() ">Submit</button>
+                    <button type="submit " class="btn btn-primary ">Submit</button>
                     <a href="register.html" style="text-decoration: none;" class="btn btn-primary">Register</a>
                 </form>
             </div>
         </div>
     </main>
     <script src="particles.js " charset="utf-8 "></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
 
     <script type="text/javascript " src="index.js "></script>
     <footer id="foot">Made with ❤️ by &copy;Saurav Jaiswal</footer>
